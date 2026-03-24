@@ -1,0 +1,47 @@
+/* styles/9-style.css */
+
+/* Root custom properties */
+:root {
+  --line-height-small: 1.2;
+  --line-height-base: 1.5;
+  --line-height-big: 1.8;
+  --section-header-align: center;
+}
+
+/* Body foreground color and base font */
+body {
+  color: #161616;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: var(--line-height-base); /* minimum height of line boxes */
+}
+
+/* Anchor elements foreground color and no decoration */
+a {
+  color: #161616;
+  text-decoration: none;
+}
+
+/* Visually hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* Card category elements */
+.card-category {
+  color: #D73953;
+}
+
+/* Section header elements */
+.section-header {
+  text-align: var(--section-header-align);
+}
+
+/* Section tagline elements */
+.section-tagline {
+  color: #D73953;
+}
+
+/* Title font stack */
+.font-family-title {
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
