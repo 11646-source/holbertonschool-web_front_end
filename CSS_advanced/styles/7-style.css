@@ -1,0 +1,32 @@
+/* styles/7-style.css */
+
+/* Body foreground color and base font */
+body {
+  color: #161616;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Anchor elements foreground color */
+a {
+  color: #161616;
+}
+
+/* Visually hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* Card category elements */
+.card-category {
+  color: #D73953;
+}
+
+/* Section tagline elements */
+.section-tagline {
+  color: #D73953;
+}
+
+/* Title font stack */
+.font-family-title {
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
