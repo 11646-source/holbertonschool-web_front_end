@@ -1,0 +1,14 @@
+/* Footer address */
+.footer-address {
+  color: var(--text-color);
+}
+
+/* Social link */
+.social-link {
+  display: block;
+}
+
+/* Social link with svg children */
+.social-link svg {
+  fill: var(--text-color);
+}
