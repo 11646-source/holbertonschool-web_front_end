@@ -1,0 +1,42 @@
+/* Custom property for section tagline margin */
+:root {
+  --section-tagline-margin: 0;
+}
+
+/* Section tagline */
+.section-tagline {
+  margin: var(--section-tagline-margin);
+}
+
+/* All ul with class row */
+ul.row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Column 1/3 */
+.col-1-3 {
+  width: 33.33%;
+  float: left;
+  padding: 0.5rem; /* half of root element */
+}
+
+/* Column 1/2 */
+.col-1-2 {
+  width: 50%;
+  float: left;
+  padding: 0.5rem; /* half of root element */
+}
+
+/* Footer copyright */
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+}
+
+/* All ul inside footer */
+footer ul {
+  text-align: right;
+}
