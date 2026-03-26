@@ -1,14 +1,12 @@
-/* Edit nav-item-link-hover property */
 :root {
   --color-white: #ffffff;
-  --color-primary: #007bff; /* or whatever primary color you want */
+  --color-primary: #007bff;
 }
 
 .nav-item-link-hover {
   color: var(--color-white);
 }
 
-/* Target nav-link::before inside nav */
 nav .nav-link::before {
   content: "";
   position: absolute;
@@ -19,8 +17,8 @@ nav .nav-link::before {
   height: 20%;
 }
 
-/* Target nav-link::before when nav-item is hovered inside nav */
 nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
 }
+
