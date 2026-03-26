@@ -1,4 +1,9 @@
 /* Edit nav-item-link-hover property */
+:root {
+  --color-white: #ffffff;
+  --color-primary: #007bff; /* or whatever primary color you want */
+}
+
 .nav-item-link-hover {
   color: var(--color-white);
 }
